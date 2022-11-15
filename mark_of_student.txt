@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int mark;
+    printf("Enter the mark :",mark);
+    scanf("%d",&mark);
+    if(mark>60){
+        printf("first divition");
+       }else if(30<mark){
+        printf("pass hogaya kya??");
+       }
+        else {
+           printf("pass nahi ho paya??");
+        }
+    
+        return 0;
+
+}
